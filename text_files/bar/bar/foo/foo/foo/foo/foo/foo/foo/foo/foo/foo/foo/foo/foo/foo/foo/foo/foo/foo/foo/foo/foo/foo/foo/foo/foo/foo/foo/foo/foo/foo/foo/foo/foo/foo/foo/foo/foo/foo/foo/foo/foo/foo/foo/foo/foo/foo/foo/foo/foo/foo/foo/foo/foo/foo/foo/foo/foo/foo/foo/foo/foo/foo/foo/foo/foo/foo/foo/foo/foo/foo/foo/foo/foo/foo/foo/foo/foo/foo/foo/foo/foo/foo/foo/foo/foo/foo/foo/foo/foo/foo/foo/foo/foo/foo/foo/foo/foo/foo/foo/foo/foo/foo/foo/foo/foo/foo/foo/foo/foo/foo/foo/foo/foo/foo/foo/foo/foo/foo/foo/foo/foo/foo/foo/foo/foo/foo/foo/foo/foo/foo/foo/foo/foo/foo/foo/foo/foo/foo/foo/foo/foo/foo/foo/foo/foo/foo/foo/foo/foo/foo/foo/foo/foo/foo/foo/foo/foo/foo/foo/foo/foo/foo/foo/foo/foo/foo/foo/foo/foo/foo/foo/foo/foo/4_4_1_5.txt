@@ -1,0 +1,3 @@
+That thereby beauty's Rose might never die,
+Roses have thorns, and silver fountains mud:
+実行コマンド:grep Rose sonnets.txt | grep -v rose
