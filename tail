@@ -1,0 +1,1 @@
+入力したコマンド:grep -n rose sonnets.txt -n 1 4_4_1_1.txt
