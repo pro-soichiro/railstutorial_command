@@ -1,3 +1,0 @@
-Roses have thorns, and silver fountains mud:
-Roses of shadow, since his rose is true?
-実行コマンド:grep -i '^rose*' sonnets.txt
