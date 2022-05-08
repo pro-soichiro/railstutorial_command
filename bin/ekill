@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# シグナルをできるだけ安全にkillする。
+# シグナルの緊急度を順次あげてプロセスのkillを試みる。
+# 使い方: ekill <pid>
+
+# 引数が1より小さい倍位は使い方を表示して終了する。
+if [[ $# -lt 1 ]]; then
+  echo "使い方: ekill <pid>"
+  exit 1
+fi
+
+# 最初の引数にプロセスIDを代入する
+pid=$1
+kill -15 $pid || kill -2 $pid || kill -1 $pid || kill -9 $pid
