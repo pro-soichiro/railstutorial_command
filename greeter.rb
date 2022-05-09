@@ -5,3 +5,4 @@ class Greeter
 end
 
 Greeter.new.hello("world")
+# シンタックスハイライトのテスト
